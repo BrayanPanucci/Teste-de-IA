@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IA Chat Interface</title>
+    <link rel="stylesheet" href="style.css"> <!-- Linka o arquivo CSS -->
+</head>
+<body>
+    <div class="chat-container">
+        <div class="chat-header">
+            <h1>Assistente IA</h1>
+        </div>
+        <div class="chat-box" id="chat-box">
+            <!-- Mensagens serão adicionadas aqui via JavaScript -->
+            <div class="message user-message">
+                <p>Olá! Pode me ajudar a criar uma interface de chat?</p>
+            </div>
+            <div class="message ai-message">
+                <p>Claro! Posso fornecer o código HTML e CSS para isso. O que mais você gostaria de saber?</p>
+            </div>
+        </div>
+        <div class="chat-input">
+            <input type="text" id="user-input" placeholder="Digite sua mensagem...">
+            <button onclick="sendMessage()">Enviar</button>
+        </div>
+    </div>
+    <script src="script.js"></script> <!-- Linka o arquivo JavaScript -->
+</body>
+</html>
